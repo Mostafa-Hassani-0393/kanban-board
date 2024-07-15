@@ -1,5 +1,6 @@
 package models
 
 type Board struct {
-	Name string
+	Name    string
+	Columns []string
 }
